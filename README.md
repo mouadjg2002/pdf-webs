@@ -1,44 +1,51 @@
-# 📄 PDF-WEBS  
-**Unlock Insights from PDFs, Effortlessly Engage Users**
+# 📄 PDF-WEBS
 
-![Last Commit](https://img.shields.io/github/last-commit/mouadjg2002/pdf-webs)  
-![Top Language](https://img.shields.io/github/languages/top/mouadjg2002/pdf-webs)  
+**Unlock insights from PDFs and engage users effortlessly.**
+
+![Last Commit](https://img.shields.io/github/last-commit/mouadjg2002/pdf-webs)
+![Top Language](https://img.shields.io/github/languages/top/mouadjg2002/pdf-webs)
 ![Languages Count](https://img.shields.io/github/languages/count/mouadjg2002/pdf-webs)
 
-## 🧰 Built With
-- PHP  
+---
+
+## 🚀 Overview
+
+**PDF-WEBS** is a developer-focused tool that streamlines PDF processing and enhances user interaction. With secure authentication, modular design, and an interactive viewer, this project simplifies PDF management for modern web apps.
+
+### ✨ Features
+
+- 📄 Parse and extract text from PDF files  
+- 🔐 User authentication (login/register)  
+- 📁 Organized file uploads per user  
+- 💬 Chat-based interaction with extracted PDF content  
+- ⚙️ Clean, modular PHP architecture  
+- ✅ Compatibility with modern PHP versions  
+
+---
+
+## 🧰 Tech Stack
+
+- **Language**: PHP  
+- **Package Manager**: Composer  
+- **Data Format**: JSON  
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+
+- PHP >= 7.4  
 - Composer  
-- JSON
 
-## 📚 Table of Contents
-- [Overview](#-overview)  
-- [Getting Started](#-getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-  - [Usage](#usage)  
-- [Testing](#-testing)
-
-## 📝 Overview  
-**PDF-WEBS** is a powerful developer tool designed to streamline PDF processing and enhance user interaction. With its robust architecture, it simplifies the management and manipulation of PDF documents, making it an essential asset for developers working with document-based data.
-
-### 🔥 Why PDF-WEBS?
-- 📄 **PDF Processing:** Efficiently parse and extract text using advanced libraries.  
-- 🔐 **User Authentication:** Secure login/registration to protect user data.  
-- 📤 **File Uploads:** Dedicated directories per user for organized file management.  
-- 💬 **Interactive Viewer:** Chat with content based on extracted PDF text.  
-- ⚙️ **Modular Architecture:** Easy to maintain and scale.  
-- ✅ **PHP Compatibility Checks:** Ensures stable runtime on supported versions.
-
-## 🚀 Getting Started
-
-### ✅ Prerequisites
-Make sure you have the following installed:
-- PHP  
-- Composer
-
-### 🛠 Installation
-
-Clone the repository:
+### Steps
 
 ```bash
-git clone https://github.com/mouadjg2002/pdf-webs
+# Clone the repository
+git clone https://github.com/mouadjg2002/pdf-webs.git
+
+# Enter the project directory
+cd pdf-webs
+
+# Install dependencies
+composer install
